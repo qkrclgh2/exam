@@ -1,0 +1,53 @@
+html {
+    color: white;
+    font-family: 'SF_HambakSnow';
+}
+
+@font-face {
+    font-family: 'SF_HambakSnow';
+    src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_2106@1.1/SF_HambakSnow.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+#container {
+    background: url(/images/회색배경.jpeg) no-repeat fixed center/cover;
+    width: 1000px;
+    height: 1000px;
+    margin: 0 auto;
+}
+
+#container > h1 {
+    text-align: center;
+    padding-top: 20px;
+    font-size: 60px;
+}
+
+#list {
+    margin: 200px 200px;
+}
+
+ul, li {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#listul > li > a {
+    font-size: 30px;
+}
+
+
+a:link { 
+    text-decoration: none; 
+    color: white;
+    font-size: 20px;
+}
+a:visited { text-decoration: none; color: white;}
+
+p{
+    text-align: center;
+}
+
+#gomain {
+    font-size: 60px;
+}
