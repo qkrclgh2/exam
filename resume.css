@@ -11,7 +11,7 @@ html {
 }
 
 #container {
-    background: url(/HTML/exam/회색배경.jpeg) no-repeat fixed center/cover;
+    background: url(./회색배경.jpeg) no-repeat fixed center/cover;
     width: 1000px;
     height: 1000px;
     margin: 0 auto;
