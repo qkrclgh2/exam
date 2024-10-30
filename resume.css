@@ -1,0 +1,86 @@
+html {
+    color: white;
+    font-family: 'SF_HambakSnow';
+}
+
+@font-face {
+    font-family: 'SF_HambakSnow';
+    src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_2106@1.1/SF_HambakSnow.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+#container {
+    background: url(/HTML/exam/회색배경.jpeg) no-repeat fixed center/cover;
+    width: 1000px;
+    height: 1000px;
+    margin: 0 auto;
+}
+
+#container > h1 {
+    text-align: center;
+    padding-top: 20px;
+    font-size: 60px;
+    text-decoration: underline;
+}
+
+#main-table { 
+    border: 1px solid white; 
+    width: 900px; 
+    text-align: center;
+    margin: 0 auto;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+td { border: 1px solid white; }
+
+#address-table {
+    border: 1px solid white;
+    width: 900px;
+    text-align: center;
+    margin: 0 auto;
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+
+#h2-text {
+    margin-left: 50px;
+}
+
+#career-table {
+    border: 1px solid white;
+    width: 900px;
+    text-align: center;
+    margin: 0 auto;
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+
+#career2-table {
+    border: 1px solid white;
+    width: 900px;
+    text-align: center;
+    margin: 0 auto;
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+
+#career3-table {
+    border: 1px solid white;
+    width: 900px;
+    text-align: center;
+    margin: 0 auto;
+    font-size: 20px;
+    margin-bottom: 100px;
+}
+
+#container > p {
+    text-align: center;
+}
+
+a:visited { text-decoration: none; color: white;}
+
+#gomain {
+    color: white;
+    font-size: 20px;
+}

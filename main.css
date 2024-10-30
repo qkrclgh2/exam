@@ -1,0 +1,71 @@
+html { 
+    background: url(/HTML/exam/kia.jpg) no-repeat fixed top;
+    color: white;
+    font-family: 'SF_HambakSnow';
+    
+}
+
+#container {
+    width: 600px;
+    margin: 0 auto;
+}
+
+#header {
+    padding: 20px;
+    height: 200px;
+    margin-bottom: 20px;
+}
+
+#header > h1 {
+     color: white; 
+     margin: 30px 0;
+}
+
+#header > p {
+    text-align: right;
+}
+
+#header > p > a {
+    font-size: 15px;
+}
+
+
+#main {
+    /* background-color: gray; */
+    text-align: center;
+}
+
+.resume {
+    margin-right: 20px;
+}
+
+h2{
+    padding-top: 20px;
+}
+
+#main > p {
+    font-size: 20px;
+    padding: 1px;
+}
+
+a:link { 
+    text-decoration: none; 
+    color: white;
+    font-size: 20px;
+}
+a:visited { text-decoration: none; color: white;}
+
+#upli {
+    margin-bottom: 20px;
+}
+
+#footer {
+    text-align: center;
+}
+
+@font-face {
+    font-family: 'SF_HambakSnow';
+    src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_2106@1.1/SF_HambakSnow.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
