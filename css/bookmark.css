@@ -11,7 +11,7 @@ html {
 }
 
 #container {
-    background: url(/images/회색배경.jpeg) no-repeat fixed center/cover;
+    background: url(../images/회색배경.jpeg) no-repeat fixed center/cover;
     width: 1000px;
     height: 1000px;
     margin: 0 auto;
